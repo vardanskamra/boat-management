@@ -1,5 +1,5 @@
 .grad{
-	background: linear-gradient(-45deg, #FF9933, #FFD700, #006994,  #DC143C);
+	background: linear-gradient(-45deg, #FF9933,  #006994,  #DC143C);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
@@ -30,7 +30,7 @@ footer.grad{
 .white-text-heading{
     color: white;
     font-weight: 550;
-    font-size: 18pt;
+    font-size: 17pt;
 }
 
 .navbar-nav .dropdown-menu {
@@ -103,3 +103,23 @@ footer.grad{
     text-align: center; 
 }
 
+.contact-section {
+    padding: 50px 15px;
+}
+.contact-form {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 20px;
+}
+.contact-form input, .contact-form textarea {
+    margin-bottom: 15px;
+}
+.contact-form button {
+    width: 100%;
+    color: white;
+    border: none;
+}
+.map-container {
+    height: 400px;
+    width: 100%;
+}

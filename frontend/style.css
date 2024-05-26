@@ -1,12 +1,13 @@
 .grad{
-	background: linear-gradient(-45deg, #E38F02, #FF007E);
+	background: linear-gradient(-45deg, #FF9933, #FFD700, #006994,  #DC143C);
 	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: gradient 15s ease infinite;
 }
 
-.white-text{
-    color: white;
-    font-weight: 400;
+footer.grad{
+	background: linear-gradient(-45deg, #FF9933, #006994,  #DC143C);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
@@ -21,8 +22,23 @@
 	}
 }
 
+.white-text{
+    color: white;
+    font-weight: 400;
+}
+
+.white-text-heading{
+    color: white;
+    font-weight: 550;
+    font-size: 18pt;
+}
+
 .navbar-nav .dropdown-menu {
     margin-right: 10px; 
+}
+
+.navbar-nav {
+    align-items: center;
 }
 
 .dropdown-toggle::after {
@@ -34,6 +50,54 @@
     display: inline-block;
     content: "";
     position: relative;
-    top: -0.125em; /* Adjust as needed */
-    color: white; /* Set arrow color to white */
+    top: -0.125em; 
+    color: white; 
+}
+
+.background-image-1 {
+    background-image: url('./images/photo-1624124231037-e2149a973c24.avif'); 
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.text-content {
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px 0;
+    color: white; /* Make all text in footer white */
+}
+
+.footer-column {
+    padding: 20px;
+    text-align: center; /* Center-align content */
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style
+    : none; /* Remove bullets */
+}
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.timing-slots p {
+    margin: 0;
+    text-align: center; 
 }
